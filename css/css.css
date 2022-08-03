@@ -1,0 +1,278 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   background-color: #F5F7FA;
+}
+
+
+/* MAIN */
+.main {
+
+   width: 1200px;
+   margin: 0px auto;
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+/* STYLE FOR SIDE BAR */
+
+.sidebar {
+   width: 470px;
+   background-color: #1E2939;
+   padding-top: 40px;
+}
+
+.photo {
+   border-radius: 4px;
+   width: 355px;
+   margin-bottom: 50px;
+}
+
+.bar_title {
+   color: #FFFFFF;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 27px;
+   margin-bottom: 10px;
+}
+
+.contact_type {
+   color: #FFFFFF;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 24px;
+   margin-right: 5px;
+}
+
+.contact_link {
+   text-decoration: none;
+   color: #80878F;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+}
+
+.contact {
+   margin-bottom: 50px;
+}
+
+.tech_skill,
+.soft_skill,
+.contact {
+   padding-left: 30px;
+}
+
+.tech_skill,
+.soft_skill {
+   color: #FFFFFF;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   margin-bottom: 45px;
+}
+
+.list_skill {
+   padding: 0;
+   margin-left: 17px;
+}
+
+.tech_skill li::marker,
+.soft_skill li::marker {
+   color: #FB6D3A;
+}
+
+
+
+/* MAIN CONTANT */
+.title {
+   color: #000000;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 27px;
+   margin-bottom: 13px;
+}
+
+.m_content {
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   background-color: #FFFFFF;
+   padding: 105px 90px;
+}
+
+/* STYLES FOR ABOUT ME */
+.about_u {
+   background-color: #FFFFFF;
+}
+
+.about_position {
+   color: #000000;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+}
+
+.about_name {
+   color: #000000;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 55px;
+   margin-bottom: 25px;
+
+}
+
+.about_description {
+   color: #595959;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   width: 400px;
+   margin-bottom: 40px;
+
+}
+
+/* STYLES FOR PROJECT  */
+
+
+.project {
+   background: #FFFFFF;
+   margin-bottom: 50px;
+}
+
+.list_project {
+   padding: 0;
+   margin-left: 17px;
+}
+
+.list_number {
+   color: #000000;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 24px;
+}
+
+.project_link,
+.project_link_url {
+   text-decoration: none;
+   color: #595959;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+}
+
+.project_link_url {
+   margin-left: 10px;
+}
+
+.project_bracet {
+   color: #000000;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 24px;
+}
+
+/* STYLES FOR WORK */
+
+.work {
+   background-color: #FFFFFF;
+}
+
+.work_position {
+   color: #000000;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   margin-bottom: 10px;
+}
+
+.work_organization {
+   color: #FB6D3A;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+.work_time {
+   color: #A8A8A8;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+   margin-bottom: 10px;
+}
+
+.line {
+   color: #000000;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+}
+
+.work_list_exp {
+   color: #595959;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   padding: 0;
+   margin-left: 17px;
+   margin-bottom: 15px;
+}
+
+/* STYLES FOR EDUCATION  */
+
+.edu {
+   margin-top: 45px;
+   background-color: #FFFFFF;
+}
+
+.education_title {
+   color: #000000;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 27px;
+   margin-bottom: 13px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.479));
+}
+
+.univer {
+   color: #FB6D3A;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+.univer_specialization {
+   color: #000000;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+}
+
+.univer_time {
+   color: #A8A8A8;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+}
+
+.univer_time,
+.univer_specialization,
+.univer {
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.479));
+}
