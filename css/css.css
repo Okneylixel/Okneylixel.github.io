@@ -23,7 +23,7 @@ body {
 
 .photo {
    border-radius: 4px;
-   width: 355px;
+   width: 362px;
    margin-bottom: 50px;
 }
 
@@ -99,7 +99,7 @@ body {
 .m_content {
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    background-color: #FFFFFF;
-   padding: 105px 90px;
+   padding: 105px 70px 105px 90px;
 }
 
 /* STYLES FOR ABOUT ME */
